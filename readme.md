@@ -20,7 +20,7 @@ wget -q -O - https://github.com/periwinkleispurple/bash_install/blob/master/glpi
 ```
 
 _____________________________________________________________________________________________________________________
- ❝ I might be using a lot of unnecessary "sudo" but! I want ensure that the commands goes well.
+ ❝ I might be using a lot of unnecessary "sudo" but! I want to ensure that the commands goes well.
  
  I got a lot of stuff like "unknown command" while performing all my tests, and using sudo help fix some lines. ❞
  
