@@ -1,6 +1,6 @@
 # periwinkleispurple/bash_install.
 
-All bash here are fully fonctionnal on < debian-10.0.0-amd64 >.
+All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**.
 
 Open terminal, 
 
@@ -13,7 +13,7 @@ And then :
 wget -q -O - url | sudo bash
 ```
 Example :
-```
+```css
 wget https://github.com/periwinkleispurple/bash_install/blob/master/glpi_standalone_v-1-7-19.sh | sudo bash
 ```
 _____________________________________________________________________________________________________________________
