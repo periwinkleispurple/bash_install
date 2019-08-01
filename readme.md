@@ -13,10 +13,12 @@ wget -q -O - url | sudo bash
 ```
 apt-get install sudo
 ```
-> Example :
+
+> Main command example :
 ```
 wget https://github.com/periwinkleispurple/bash_install/blob/master/glpi_standalone_v-1-7-19.sh | sudo bash
 ```
+
 _____________________________________________________________________________________________________________________
  ❝ I might be using a lot of unnecessary "sudo" but! I want ensure that the commands goes well.
  
