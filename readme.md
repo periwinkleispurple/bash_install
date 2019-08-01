@@ -13,7 +13,7 @@ And then :
 wget -q -O - url | sudo bash
 ```
 Example :
-```css
+```
 wget https://github.com/periwinkleispurple/bash_install/blob/master/glpi_standalone_v-1-7-19.sh | sudo bash
 ```
 _____________________________________________________________________________________________________________________
