@@ -5,11 +5,12 @@ All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**.
 
 > Open terminal 
 
-> You might have to do first :
+> You must either :
 ```
 apt-get update && apt-get upgrade 
 or
 apt-get install sudo
+*Any script will perform update and upgrade anyway*
 ```
 > And then :
 ```
