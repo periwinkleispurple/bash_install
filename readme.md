@@ -1,4 +1,4 @@
-#### Periwinkle goes purple on bash
+#### Periwinkle is purple / bash install
 _____________________________________________________________________________________________________________________
 
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**.
