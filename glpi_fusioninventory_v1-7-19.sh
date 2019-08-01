@@ -3,7 +3,7 @@ clear
 echo
 echo
 echo 
-echo Installing GPLI v 9.4.3 _01 July 19_ 
+echo Installing GPLI v 9.4.3 and FusionIventory Plugin _01 July 19_ 
 echo
 echo Recommended OS : debian-10.0.0-amd64.
 echo
@@ -84,7 +84,7 @@ clear
 echo
 echo
 echo 
-echo GLPI 9.4.3 is installed. 
+echo Installing GPLI v 9.4.3 and FusionIventory Plugin _01 July 19_ 
 echo
 echo github.com/periwinkleispurple/
 echo
