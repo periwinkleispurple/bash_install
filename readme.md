@@ -16,7 +16,7 @@ apt-get install sudo
 
 > Main command example :
 ```
-wget https://github.com/periwinkleispurple/bash_install/blob/master/glpi_standalone_v-1-7-19.sh | sudo bash
+wget -q -O - https://github.com/periwinkleispurple/bash_install/blob/master/glpi_standalone_v-1-7-19.sh | sudo bash
 ```
 
 _____________________________________________________________________________________________________________________
