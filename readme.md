@@ -5,18 +5,13 @@ All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**.
 
 > Open terminal 
 
-> You must either :
-```
-apt-get update && apt-get upgrade 
-
-or
-
-apt-get install sudo
-*Any script will perform update and upgrade anyway*
-```
-> And then :
+> First step :
 ```
 wget -q -O - url | sudo bash
+```
+> If sudo if not installed, just install it and redo the command :
+```
+apt-get install sudo
 ```
 > Example :
 ```
