@@ -37,7 +37,7 @@ echo Last change : apache2...
 sleep 1s
 
 sudo aptitude install -y php7.3 php7.3-mysql php7.3-gd
-sudo apt-get install -y php-soap php-mbstring php-gettext php-curl php7.0-zip php-ldap php-imap php-apcu php-xmlrpc php-cas php-mysqli php-mbstring php-curl php-gd php-simplexml php-xml
+sudo apt-get install -y php-soap php-mbstring php-gettext php-curl php-ldap php-imap php-apcu php-xmlrpc php-cas php-mysqli php-mbstring php-gd php-simplexml php-xml
 /etc/init.d/apache2 restart
 clear
 echo Last change : php...
