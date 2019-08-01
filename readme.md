@@ -1,4 +1,4 @@
-## periwinkle goes purple on bash
+###### periwinkle goes purple on bash
 
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**.
 
