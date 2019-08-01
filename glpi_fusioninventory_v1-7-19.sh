@@ -79,7 +79,7 @@ clear
 echo
 echo
 echo 
-echo Installing GPLI v 9.4.3 and FusionIventory Plugin _01 July 19_ 
+echo GPLI v 9.4.3 and FusionIventory Plugin _01 July 19_ are installed.
 echo
 echo github.com/periwinkleispurple/
 echo
