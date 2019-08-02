@@ -16,8 +16,10 @@ apt-get install sudo
 
 > Main command example :
 ```
-wget -q -O - https://github.com/periwinkleispurple/bash_install/blob/master/glpi_standalone_v-1-7-19.sh | sudo bash
+wget -q -O - (url)/glpi_standalone_v-1-7-19.sh | sudo bash
 ```
+
+Get url from releases section.
 
 _____________________________________________________________________________________________________________________
  ❝ I might be using a lot of unnecessary "sudo" but! I want to ensure that the commands goes well.
