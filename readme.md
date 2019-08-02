@@ -6,6 +6,8 @@ Summary <br/>
 2. GLPI MariaDB Database connection 
 <br/><br/>
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**. Every source code are listed above !
+<br/>
+Make sure your OS has a web and SSH server. 
 _____________________________________________________________________________________________________________________
 
 #### 1. How to 
