@@ -1,8 +1,7 @@
 #### Periwinkle is purple / bash install
 _____________________________________________________________________________________________________________________
 
-All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**.
-Source code view is available ! 
+All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**. Every source code are listed above !
 
 > Open terminal 
 
