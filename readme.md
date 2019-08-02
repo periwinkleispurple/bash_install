@@ -17,6 +17,12 @@ apt-get install sudo
 > Main command example :
 ```
 wget -q -O - (url)/glpi_standalone_v-1-7-19.sh | sudo bash
+
+So :
+
+wget -q -O - https://github.com/periwinkleispurple/bash_install/releases/download/untagged-221cccad24048ec0204b/glpi_fusioninventory_v1-7-19.sh | sudo bash
+
+Or wget -q -O - sewesty.com/_github/glpi_standalone_v-1-7-19.sh | sudo bash
 ```
 
 Get url from releases section. You can also get link from here  [sewesty/github](https://sewesty.com/_github).
