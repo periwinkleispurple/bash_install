@@ -44,7 +44,7 @@ ________________________________________________________________________________
 
 #### 2. GLPI MariaDB Database connection 
 
-
+```
 Server name : localhost
 
 Database name : glpi
@@ -52,6 +52,6 @@ Database name : glpi
 Username : glpibdd
 
 Password : glpibddpass 
-
+```
 
 
