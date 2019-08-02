@@ -19,7 +19,7 @@ apt-get install sudo
 wget -q -O - (url)/glpi_standalone_v-1-7-19.sh | sudo bash
 ```
 
-Get url from releases section.
+Get url from releases section. You can also get link from here  [sewesty/github](https://sewesty.com/_github)
 
 _____________________________________________________________________________________________________________________
  ❝ I might be using a lot of unnecessary "sudo" but! I want to ensure that the commands goes well.
