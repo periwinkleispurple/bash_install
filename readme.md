@@ -1,7 +1,15 @@
 #### Periwinkle is purple / bash install
 _____________________________________________________________________________________________________________________
 
+Summary 
+1. How to 
+2. MariaDB Database connection 
+
+
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**. Every source code are listed above !
+
+
+#### How to 
 
 > Open terminal 
 
@@ -34,3 +42,17 @@ ________________________________________________________________________________
  
 - Periwinkle
 _____________________________________________________________________________________________________________________
+
+#### MariaDB Database connection 
+
+
+Server name : localhost
+
+Database name : glpi
+
+Username : glpibdd
+
+Password : glpibddpass 
+
+
+
