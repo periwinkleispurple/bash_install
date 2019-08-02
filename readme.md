@@ -2,6 +2,7 @@
 _____________________________________________________________________________________________________________________
 
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**.
+Source code view is available ! 
 
 > Open terminal 
 
