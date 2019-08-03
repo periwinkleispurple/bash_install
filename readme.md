@@ -4,6 +4,7 @@ ________________________________________________________________________________
 Summary <br/>
 1. How to 
 2. GLPI MariaDB Database connection 
+3. _Zero (coming soon)_
 <br/><br/>
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**. Every source code are listed above !
 <br/>
