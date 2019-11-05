@@ -20,6 +20,7 @@ if [ -d "$DIR" ]; then
 	tar xvf glpi9.4.0+1.0.tar.gz -C /var/www/html/glpi/plugins
 	chown -R www-data /var/www/html/glpi/plugins
 	cd /var/www/html/glpi/plugins
+	mv fusioninventory-for-glpi-glpi9.4.0-1.0/ fusioninventory/
   	echo "Installing fusioninventory plugin in ${DIR}..."
 else
   	echo "Error: ${DIR} not found. GLPI is not installed, use my glpi tutorial or script"
