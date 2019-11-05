@@ -6,7 +6,7 @@ Summary <br/>
 2. GLPI MariaDB Database connection 
 3. _Zero (coming soon)_
 <br/><br/>
-All bash here are fully fonctionnal on **< debian-10.0.0-amd64 >**. Every source code are listed above !
+All bash here are fully fonctionnal on **< debian-10.0.0-amd64 and Mint 'Sarah' >**. Every source code are listed above !
 <br/>
 Make sure your OS has a web and SSH server. 
 _____________________________________________________________________________________________________________________
@@ -32,10 +32,8 @@ So :
 
 wget -q -O - https://github.com/periwinkleispurple/bash_install/releases/download/untagged-221cccad24048ec0204b/glpi_fusioninventory_v1-7-19.sh | sudo bash
 
-Or wget -q -O - sewesty.com/_github/glpi_standalone_v-1-7-19.sh | sudo bash
+Or wget -q -O – periwinkle.ovh/library/glpi/glpi.sh | sudo bash
 ```
-
-Get url from releases section. You can also get link from here  [sewesty/github](https://sewesty.com/_github).
 
 _____________________________________________________________________________________________________________________
  ❝ I might be using a lot of unnecessary "sudo" but! I want to ensure that the commands goes well.
