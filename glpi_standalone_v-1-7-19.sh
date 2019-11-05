@@ -1,14 +1,15 @@
 cd /
 clear
 echo
-echo
+echo [fixed version]
 echo 
-echo Installing GPLI v 9.4.3 _01 July 19_ 
+echo Installing GPLI v 9.4.3 _05 Nov 19_ 
 echo
-echo Recommended OS : debian-10.0.0-amd64.
+echo Working OS : debian-10.0.0-amd64 or Mint 'Sarah'
+echo Usable mostly on debians and mints dist only.
 echo
 echo
-echo
+echo Starting...
 sleep 5s
 
 apt-get install -y sudo 
@@ -16,7 +17,7 @@ clear
 echo Last change : sudo...
 sleep 1s 
 
-sudo apt-get update && apt-get upgrade 
+sudo apt-get update -y && apt-get upgrade -y 
 clear
 echo Last change : update and upgrade...
 sleep 1s
@@ -36,8 +37,8 @@ clear
 echo Last change : apache2...
 sleep 1s
 
-sudo aptitude install -y php7.3 php7.3-mysql php7.3-gd
-sudo apt-get install -y php-soap php-mbstring php-gettext php-curl php-ldap php-imap php-apcu php-xmlrpc php-cas php-mysqli php-mbstring php-gd php-simplexml php-xml
+sudo aptitude install -y php7.3 php7.3-mysql php7.3-gd php7.3-mbstring php7.3-simplexml php7.3-curl php7.3-ldap php7.3-imap php7.3-apcu php7.3-xmlrpc php7.3-zip
+sudo apt-get install -y php-soap php-gettext php-apcu php-xmlrpc php-cas php-mysqli php-gd php-xml
 /etc/init.d/apache2 restart
 clear
 echo Last change : php...
@@ -53,7 +54,7 @@ echo Last change : mariadb server and sql entries...
 sleep 1s
 
 cd /tmp
-wget sewesty.com/glpi/glpi-9.4.3.tgz
+wget periwinkle.ovh/library/glpi/glpi-9.4.3.tgz
 tar xzf glpi-9.4.3.tgz
 cp -R /tmp/glpi /usr/share
 chown -R root.www-data /usr/share/glpi
