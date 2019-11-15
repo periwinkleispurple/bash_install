@@ -33,6 +33,8 @@ So :
 wget -q -O - https://github.com/periwinkleispurple/bash_install/releases/download/untagged-221cccad24048ec0204b/glpi_fusioninventory_v1-7-19.sh | sudo bash
 
 Or wget -q -O – periwinkle.ovh/library/glpi/glpi.sh | sudo bash
+Or wget -q -O – periwinkle.ovh/library/glpi/fusioninventory.sh | sudo bash
+Or wget -q -O – periwinkle.ovh/library/glpi/glpiandfusioninventory.sh | sudo bash
 ```
 
 _____________________________________________________________________________________________________________________
