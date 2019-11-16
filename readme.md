@@ -2,9 +2,9 @@
 _____________________________________________________________________________________________________________________
 
 Summary <br/>
-1. How to 
-2a. GLPI default user logs
-2b. GLPI MariaDB Database connection 
+1. How to <br/>
+2a. GLPI default user logs <br/>
+2b. GLPI MariaDB Database connection <br/>
 3. _Zero (coming soon)_
 <br/><br/>
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 and Mint 'Sarah' >**. Every source code are listed above !
