@@ -39,7 +39,7 @@ Or wget -q -O – periwinkle.ovh/library/glpi/glpiandfusioninventory.sh | sudo b
 ```
 
 <br/>
-> puTTy Issues #1 : If wget is not working for some reason, use curl instead : 
+> puTTy Issues #1 : If wget is not working for some reason, use curl instead : <br/>
 ```
 apt-get install curl 
 &
