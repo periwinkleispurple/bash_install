@@ -59,7 +59,6 @@ ________________________________________________________________________________
 ID : glpi
 
 Password : glpi
-
 ```
 
 #### 2.b GLPI MariaDB Database connection 
