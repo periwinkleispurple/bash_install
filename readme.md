@@ -37,9 +37,10 @@ Or wget -q -O – periwinkle.ovh/library/glpi/fusioninventory.sh | sudo bash
 Or wget -q -O – periwinkle.ovh/library/glpi/glpiandfusioninventory.sh | sudo bash
 ```
 
-If wget is not working, install curl and try : 
+puTTy Issues #1 :If wget is not working for some reason, use curl instead : 
+```
 curl periwinkle.ovh/library/glpi/glpiandfusioninventory.sh | sudo bash
-
+```
 _____________________________________________________________________________________________________________________
  ❝ I might be using a lot of unnecessary "sudo" but! I want to ensure that the commands goes well.
  
