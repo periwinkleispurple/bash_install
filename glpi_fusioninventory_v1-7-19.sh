@@ -61,6 +61,7 @@ chown -R root.www-data /usr/share/glpi
 chmod -R 775 /usr/share/glpi
 ln -s /usr/share/glpi /var/www/html/
 /etc/init.d/apache2 restart
+rm /usr/share/glpi/install/install.php
 clear
 echo Last change : glpi...
 sleep 1s
