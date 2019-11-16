@@ -3,7 +3,8 @@ ________________________________________________________________________________
 
 Summary <br/>
 1. How to 
-2. GLPI MariaDB Database connection 
+2a. GLPI default user logs
+2b. GLPI MariaDB Database connection 
 3. _Zero (coming soon)_
 <br/><br/>
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 and Mint 'Sarah' >**. Every source code are listed above !
@@ -52,7 +53,16 @@ ________________________________________________________________________________
 - Periwinkle
 _____________________________________________________________________________________________________________________
 
-#### 2. GLPI MariaDB Database connection 
+#### 2.a Default user logs
+
+```
+ID : glpi
+
+Password : glpi
+
+```
+
+#### 2.b GLPI MariaDB Database connection 
 
 ```
 Server name : localhost
