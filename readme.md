@@ -5,7 +5,8 @@ Summary <br/>
 1. How to <br/>
 2a. GLPI default user logs <br/>
 2b. GLPI MariaDB Database connection <br/>
-3. _Zero (coming soon)_
+3. Remove install.php
+4. _Zero (coming soon)_
 <br/><br/>
 All bash here are fully fonctionnal on **< debian-10.0.0-amd64 and Mint 'Sarah' >**. Every source code are listed above !
 <br/>
@@ -72,4 +73,9 @@ Username : glpibdd
 Password : glpibddpass 
 ```
 
+#### 4. Remove install.php
+
+```
+rm /usr/share/glpi/install/install.php
+```
 
