@@ -1,6 +1,10 @@
 
 
 
+# SSH
+apt install openssh-server -y
+systemctl start sshd
+
 # Updates - LAMP
 apt update && apt upgrade –y 
 apt install –y apache2
@@ -58,5 +62,10 @@ sudo systemctl restart apache2
 rm /usr/share/ocsinventory-reports/ocsreports/install.php
 # https://github.com/OCSInventory-NG/WindowsAgent/releases
 # Used : Windows-Agent-2.6.0.1, enable verbose.
+
+#AutoCert (probably)
+apt install certbot python3-certbot-apache -y
+certbot certonly -d domain.xyz
+systemctl restart apache2
 
 
