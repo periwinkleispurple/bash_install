@@ -58,7 +58,7 @@ sudo systemctl restart apache2
 # MySQL DB ocsdb
 # MySQL Host localhost
 
-#l ogin=admin and password=admin
+#login=admin and password=admin
 rm /usr/share/ocsinventory-reports/ocsreports/install.php
 # https://github.com/OCSInventory-NG/WindowsAgent/releases
 # Used : Windows-Agent-2.6.0.1, enable verbose.
