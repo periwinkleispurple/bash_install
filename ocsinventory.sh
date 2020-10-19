@@ -72,7 +72,7 @@ rm /usr/share/ocsinventory-reports/ocsreports/install.php
 
 # Linux Agent
 apt install libmodule-install-perl dmidecode libxml-simple-perl libcompress-zlib-perl libnet-ip-perl libwww-perl libdigest-md5-perl libdata-uuid-perl -y
-# Optional but "recommanded"
+# Optional but "recommended" by OCS
 apt install libcrypt-ssleay-perl libnet-snmp-perl libproc-pid-file-perl libproc-daemon-perl net-tools libsys-syslog-perl pciutils smartmontools read-edid nmap libnet-netmask-perl -y
 
 apt install ocsinventory-agent -y
