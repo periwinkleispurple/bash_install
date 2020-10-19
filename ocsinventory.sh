@@ -6,6 +6,7 @@ exit
 # SSH
 apt install openssh-server -y
 systemctl start sshd
+# If systemctl command not found -> sudo systemctl
 
 # Updates - LAMP
 apt update && apt upgrade –y 
