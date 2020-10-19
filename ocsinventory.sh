@@ -1,6 +1,6 @@
 
 
-# NON-AUTO install, follow step by step
+# NON-AUTO installation, follow step by step.
 exit
 
 # SSH
