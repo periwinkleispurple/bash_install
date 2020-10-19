@@ -1,6 +1,32 @@
 
 
-# NON-AUTO installation, follow step by step.
+# ###############################################
+# NON-AUTO installation, follow step by step : 
+#   - SSH Installation (optional)
+#       - OpenSSH 
+#   - Classic Updates (recommended)
+#       - Updates
+#       - Upgrades
+#   - LAMP Installation
+#       - Apache2
+#       - PHP / PHP Modules
+#       - MariaDB
+#   - OCS Installation
+#       - Perl Modules
+#       - OCS Install
+#       - OCS configuration
+#   - OCS Panel
+#       - Admin
+#   - OCS Windows Agent
+#       - Configuration Tips
+#   - OCS Linux Agent
+#       - Agent Installation
+#       - Force Agent to communicate immediately
+#   - Auto Cert (optional)
+#   - OCS Extensions / Plugins (optional)
+#       - Using extentions
+# ###############################################
+
 exit
 
 # SSH
