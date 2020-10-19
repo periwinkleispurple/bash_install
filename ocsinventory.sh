@@ -63,9 +63,10 @@ rm /usr/share/ocsinventory-reports/ocsreports/install.php
 # https://github.com/OCSInventory-NG/WindowsAgent/releases
 # Used : Windows-Agent-2.6.0.1, enable verbose.
 
-#AutoCert (probably)
+#AutoCert (will probably work 'w')
 apt install certbot python3-certbot-apache -y
 certbot certonly -d domain.xyz
 systemctl restart apache2
+
 
 
