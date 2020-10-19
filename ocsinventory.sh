@@ -68,6 +68,17 @@ rm /usr/share/ocsinventory-reports/ocsreports/install.php
 # https://github.com/OCSInventory-NG/WindowsAgent/releases
 # Used : Windows-Agent-2.6.0.1, enable verbose.
 
+# Linux Agent
+apt install libmodule-install-perl dmidecode libxml-simple-perl libcompress-zlib-perl libnet-ip-perl libwww-perl libdigest-md5-perl libdata-uuid-perl -y
+# Optional but "recommanded"
+apt install libcrypt-ssleay-perl libnet-snmp-perl libproc-pid-file-perl libproc-daemon-perl net-tools libsys-syslog-perl pciutils smartmontools read-edid nmap libnet-netmask-perl -y
+
+apt install ocsinventory-agent -y
+# > HTTP
+# > http://IP-or-Domain/ocsinventory
+# To force the agent to communicate to the server immediately :
+ocsinventory-agent --server http://IP-or-Domain/ocsinventory
+
 #AutoCert (will probably work 'w')
 apt install certbot python3-certbot-apache -y
 certbot certonly -d domain.xyz
