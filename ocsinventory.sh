@@ -1,6 +1,7 @@
 
 
-
+# NON-AUTO install, follow step by step
+stm
 # SSH
 apt install openssh-server -y
 systemctl start sshd
@@ -38,6 +39,7 @@ sudo nano setup.sh
 # DB_SERVER_USER="ocsuser"
 # DB_SERVER_PWD="ocspassword"
 sudo ./setup.sh
+# If permission denied -> chmod u+x setup.sh
 # Press Enter until the end.
 
 sudo ln -s /etc/apache2/conf-available/ocsinventory-reports.conf /etc/apache2/conf-enabled/ocsinventory-reports.conf
