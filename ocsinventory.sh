@@ -77,9 +77,9 @@ apt install libcrypt-ssleay-perl libnet-snmp-perl libproc-pid-file-perl libproc-
 
 apt install ocsinventory-agent -y
 # > HTTP
-# > http://IP-or-Domain/ocsinventory
+# > http://your-server/ocsinventory
 # To force the agent to communicate to the server immediately :
-ocsinventory-agent --server http://IP-or-Domain/ocsinventory
+ocsinventory-agent --server http://your-server/ocsinventory
 
 #AutoCert (will probably work 'w')
 apt install certbot python3-certbot-apache -y
