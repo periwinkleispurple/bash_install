@@ -38,6 +38,7 @@ sudo nano setup.sh
 # DB_SERVER_USER="ocsuser"
 # DB_SERVER_PWD="ocspassword"
 sudo ./setup.sh
+# Press Enter until the end.
 
 sudo ln -s /etc/apache2/conf-available/ocsinventory-reports.conf /etc/apache2/conf-enabled/ocsinventory-reports.conf
 sudo ln -s /etc/apache2/conf-available/z-ocsinventory-server.conf /etc/apache2/conf-enabled/z-ocsinventory-server.conf
