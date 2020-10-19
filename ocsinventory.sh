@@ -1,7 +1,8 @@
 
 
 # NON-AUTO install, follow step by step
-stm
+exit
+
 # SSH
 apt install openssh-server -y
 systemctl start sshd
