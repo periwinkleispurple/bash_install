@@ -1,6 +1,6 @@
 
 
-# ###############################################
+# 
 # NON-AUTO installation, follow step by step : 
 #     SSH Installation (optional)
 #       - OpenSSH 
@@ -25,7 +25,7 @@
 #     Auto Cert (optional)
 #     OCS Extensions / Plugins (optional)
 #       - Using extentions
-# ###############################################
+# 
 echo @redframboise
 exit
 
