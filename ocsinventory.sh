@@ -73,5 +73,12 @@ apt install certbot python3-certbot-apache -y
 certbot certonly -d domain.xyz
 systemctl restart apache2
 
+# Using extensions 
+sudo apt install python3-pip -y
+sudo pip3 install scp
+cd /usr/share/ocsinventory-reports/ocsreports/extensions
+# Extensions https://github.com/PluginsOCSInventory-NG
+apt install git -y
+git clone [HTTPS Link]
 
 
