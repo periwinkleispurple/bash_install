@@ -2,31 +2,31 @@
 
 # ###############################################
 # NON-AUTO installation, follow step by step : 
-#   - SSH Installation (optional)
+#     SSH Installation (optional)
 #       - OpenSSH 
-#   - Classic Updates (recommended)
+#     Classic Updates (recommended)
 #       - Updates
 #       - Upgrades
-#   - LAMP Installation
+#     LAMP Installation
 #       - Apache2
 #       - PHP / PHP Modules
 #       - MariaDB
-#   - OCS Installation
+#     OCS Installation
 #       - Perl Modules
 #       - OCS Install
 #       - OCS configuration
-#   - OCS Panel
+#     OCS Panel
 #       - Admin
-#   - OCS Windows Agent
+#     OCS Windows Agent
 #       - Configuration Tips
-#   - OCS Linux Agent
+#     OCS Linux Agent
 #       - Agent Installation
 #       - Force Agent to communicate immediately
-#   - Auto Cert (optional)
-#   - OCS Extensions / Plugins (optional)
+#     Auto Cert (optional)
+#     OCS Extensions / Plugins (optional)
 #       - Using extentions
 # ###############################################
-
+echo @redframboise
 exit
 
 # SSH
