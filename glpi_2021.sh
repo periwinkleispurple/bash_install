@@ -7,7 +7,7 @@ sudo systemctl enable apache2.service
 
 sudo apt install -y php7.3 php7.3-{mysql,gd,mbstring,simplexml,curl,ldap,imap,apcu,xmlrpc,zip,intl,bz2}
 sudo apt install -y php-{soap,gettext,apcu,xmlrpc,cas,mysqli,gd,xml}
-sudo systemctl enable apache2.service
+/etc/init.d/apache2 restart
 
 sudo aptitude install -y mariadb-server
 systemctl enable mariadb.service
