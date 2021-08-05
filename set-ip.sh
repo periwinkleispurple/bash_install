@@ -7,5 +7,5 @@ iface enp0s3 inet static
     address 192.168.1.34/24
     gateway 192.168.1.254
     
-ifdown enp0s3
-systemctl restart networking
+sudo ifdown enp0s3
+sudo systemctl restart networking
