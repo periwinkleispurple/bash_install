@@ -11,3 +11,6 @@ iface enp0s3 inet static
 
 sudo ifdown enp0s3 # Si erreur -> changer d'adresse, nano /etc/network/interfaces -> sudo systemctl restart networking
 sudo systemctl restart networking
+
+# Voir l'adresse
+hostname -I # Si erreur -> ip a
