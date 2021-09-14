@@ -30,4 +30,4 @@ usr : glpi
 pwd : glpi
 db : localhost
 dbuser : glpibdd
-dbpwd : glpibddpwd
+dbpwd : glpibddpass
