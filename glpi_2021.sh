@@ -32,9 +32,13 @@ db : localhost
 dbuser : glpibdd
 dbpwd : glpibddpass
 
+# nano /etc/php/7.3/apache2/php.ini 
+
+# Fuseau horaire fix
 # mysql -u root -p
-# GRANT SELECT ON mysql.time_zone_name TO 'yourglpiuser'@'localhost';
+# GRANT SELECT ON mysql.time_zone_name TO 'glpibdd'@'localhost';
 # FLUSH PRIVILEGES;
 # exit;
 # cd /var/www/html/glpi
 # sudo bin/console glpi:migration:timestamps
+# mysql_tzinfo_to_sql /usr/share/zoneinfo/right |mysql -u root mysql -p
